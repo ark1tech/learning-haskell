@@ -1,0 +1,19 @@
+Subclass and sueprclasses are different from OOP
+
+haskell has no subtypes -> just type classes 
+  -> groups certain types with types have instances of particular interfaces
+
+
+monadic building blocks
+
+
+functions can be returned
+
+functions can have types like Maybe b where b is (int -> int)
+
+multiverse 
+
+universe of Maybe
+
+if you want maybe behavior -> use maybe universe
+

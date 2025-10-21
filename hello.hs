@@ -169,11 +169,11 @@ main :: IO ()
 -- data Sign1 = Plus | Minus | NoSign
 --   deriving (Show, Eq)
 
--- getSign3 :: Int -> Sign1
--- getSign3 a
---   | a > 0 = Plus
---   | a < 0 = Minus
---   | a == 0 = NoSign
+getSign3 :: Int -> Sign1
+getSign3 a
+  | a > 0 = Plus
+  | a < 0 = Minus
+  | a == 0 = NoSign
 
 -- data Sign2 = Plus | Minus
 --   deriving (Show, Eq)
